@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 4</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="container"> 
+
+        <h2>Entrer le premier temps :</h2>
+        Heure(s) : <input type="number" value="0" id="h1" >
+        Minute(s) : <input type="number" value="0" id="m1" >
+        Seconde(s) : <input type="number" value="0" id="s1" >
+
+        <h2>Entrer le deuxième temps :</h2>
+        Heure(s) : <input type="number" value="0" id="h2" >
+        Minute(s) : <input type="number" value="0" id="m2" >
+        Seconde(s) : <input type="number" value="0" id="s2" >
+
+        <h2>Entrer le troisième temps :</h2>
+        Heure(s) : <input type="number" value="0" id="h3" >
+        Minute(s) : <input type="number" value="0" id="m3" >
+        Seconde(s) : <input type="number" value="0" id="s3" >
+
+        <h2>Total des trois temps :</h2>
+        Jour(s) : <input type="number" value="0" id="jours" readonly >
+        Heure(s) : <input type="number" value="0" id="heures" readonly >
+        Minute(s) : <input type="number" value="0" id="minutes" readonly >
+        Seconde(s) : <input type="number" value="0" id="secondes" readonly >
+        
+        <br><br>
+        <button type="button" onclick="somme()">Somme</button>
+        <button id="btn-eff" type="button" onclick="effacer()">Effacer</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

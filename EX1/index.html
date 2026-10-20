@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 1</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <div class="container">
+        <form>
+            <p>Q1. Quels éléments sont des balises HTML ?</p>
+            <input type="checkbox" name="q1" value="p"> p
+            <input type="checkbox" name="q1" value="h1"> h1
+            <input type="checkbox" name="q1" value="style"> style
+
+            <p>Q2. Quelles instructions JavaScript permettent d'afficher des informations dans la console ?</p>
+            <input type="checkbox" name="q2" value="console.log"> console.log()
+            <input type="checkbox" name="q2" value="console.error"> console.error()
+            <input type="checkbox" name="q2" value="document.write"> document.write()
+
+            <p>Q3. Quelles propriétés sont des propriétés CSS ?</p>
+            <input type="checkbox" name="q3" value="color"> color
+            <input type="checkbox" name="q3" value="margin"> margin
+            <input type="checkbox" name="q3" value="onclick"> onclick
+
+            <p>Q4. Quelle balise HTML permet d'insérer une image ?</p>
+            <input type="radio" name="q4" value="image"> image
+            <input type="radio" name="q4" value="img"> img
+            <input type="radio" name="q4" value="br"> br
+
+            <p>Q5. Quel langage permet de styliser une page Web ?</p>
+            <input type="radio" name="q5" value="html"> HTML
+            <input type="radio" name="q5" value="css"> CSS
+            <input type="radio" name="q5" value="javascript"> JavaScript
+
+            <br><br>
+            <button type="button" onclick="initialiser(this.form)">Initialiser</button>
+            <button class="btn-corr" type="button" onclick="afficherCorrige()">Afficher le corrigé</button>
+            <button class="btn-res" type="button" onclick="afficherResultat()">Afficher le résultat</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

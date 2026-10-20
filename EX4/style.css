@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: #ED96D7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---------------- The box -------------- */
+
+.container {
+    background-color: white;
+    max-width: 1000px;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ----------------- Input fields ----------------- */
+
+input {
+    width: 100px;
+    font-size: 16px;
+    padding: 3px;
+    margin-right: 5px;
+    border:2px solid #ED96D7;
+    border-radius: 8px;
+    outline: none;
+}
+
+#jours, #heures, #minutes, #secondes {
+    border-color: #499A13;
+}
+
+input:focus {
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ----------- Buttons -------------- */
+
+button{
+    width: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #499A13;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn-eff {
+    background-color: #FF0000;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: #ade8f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    max-width: 800px;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ----------------------- QCM questions -------------------------- */
+
+p {
+    font-weight: bold;
+}
+
+/* ------------------------ Buttons ---------------------------- */
+
+button {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #0077b6;
+    border: none;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-corr {
+    background-color: #fb8500;
+}
+
+.btn-res {
+    background-color: #38b000;
+}
+
+/* ------------------- Checkboxes and Radios -------------------- */
+
+input {
+    size: 30px;
+    margin-bottom: 20px;
+}
